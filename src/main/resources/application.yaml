@@ -7,3 +7,6 @@ spring:
       #      authentication-database: admin
       database: netflux
       uri: "mongodb://marcus:marcus@localhost:27017/netflux?authSource=admin&readPreference=primary&ssl=false"
+
+server:
+  port: 8087
