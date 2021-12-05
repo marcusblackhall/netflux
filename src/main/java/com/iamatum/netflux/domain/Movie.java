@@ -6,7 +6,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @RequiredArgsConstructor
 @NoArgsConstructor
-@Builder
 @Document
 public class Movie {
 
